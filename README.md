@@ -6,6 +6,9 @@ Se ejecutan los comandos como se requiere, y la siguiente imagen es el resulatad
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/d40adde7-39ca-45e7-91a0-ab19e8cf9a1b" />
 
 
+
+
+
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/b016ca68-bd3d-45cf-993c-c1fd6b3a7196" />
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/bb09db28-3beb-4dd9-ab35-bf7a4f37ffad" /><br>
 Se deben ejecutar ahora los siguientes comandos, y esto es el resultado que arroja
