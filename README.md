@@ -45,4 +45,14 @@ YOLO (You Only Look Once) es un modelo de visión por computadora diseñado para
 *🔴Velocidad:* Es extremadamente rápido al procesar imágenes completas en una sola pasada de red, lo que permite su uso en video en tiempo real.<br>
 🔴*Precisión:* A pesar de su rapidez, mantiene una alta precisión en la localización y clasificación de objetos.<br>
 🔴*Eficiencia:* Existen versiones como YOLOv8 Nano (yolov8n.pt) optimizadas para dispositivos con recursos limitados.<br>
-➖*Arquitectura:* Utiliza una red neuronal convolucional (CNN) que divide la imagen en una cuadrícula. Cada celda de la cuadrícula es responsable de predecir cajas delimitadoras (bounding boxes) y las probabilidades de clase simultáneamente.
+➖*Arquitectura:* Utiliza una red neuronal convolucional (CNN) que divide la imagen en una cuadrícula. Cada celda de la cuadrícula es responsable de predecir cajas delimitadoras (bounding boxes) y las probabilidades de clase simultáneamente.<br><br>
+
+***2. Protocolo vs. Aplicación: ¿Por qué la descarga usa TCP y la transmisión usa UDP?*** <br>
+La elección del protocolo depende de la prioridad de la tarea:<br>
+🟢*Descarga del Modelo (TCP):* Se utiliza TCP porque es un protocolo orientado a conexión y fiable. Para que el archivo del modelo (.pt) funcione, cada bit debe llegar intacto; un error de un solo byte corrompería el "cerebro" de la IA y no cargaría.<br>
+🟢*Transmisión de Video (UDP):* Se utiliza UDP para minimizar la latencia. En el video en tiempo real, es preferible perder un paquete (un pequeño cuadro o pixelado) y continuar con el siguiente frame que detener el video esperando una retransmisión.<br><br>
+
+***3. Fiabilidad vs. Velocidad: Análisis de Retransmisiones*** <br>
+🔵**tcp.analysis.retransmission:** Si aparece este filtro en Wireshark, significa que un paquete se perdió en la red o llegó dañado, y el receptor solicitó que se enviara de nuevo.<br>
+🔵**Crucial para archivos:** Sin este mecanismo, las descargas de archivos pesados fallarían constantemente ante cualquier parpadeo del Wi-Fi.<br>
+🔵**Perjudicial para video:** En un video en vivo, recibir un paquete "viejo" que se perdió hace 2 segundos causaría saltos o congelamientos molestos; es mejor ignorar la pérdida y mostrar lo que está pasando ahora.<br><br>
