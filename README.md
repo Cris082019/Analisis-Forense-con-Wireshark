@@ -58,11 +58,11 @@ La elección del protocolo depende de la prioridad de la tarea:<br>
 🔵**Perjudicial para video:** En un video en vivo, recibir un paquete "viejo" que se perdió hace 2 segundos causaría saltos o congelamientos molestos; es mejor ignorar la pérdida y mostrar lo que está pasando ahora.<br><br>
 
 ***4. Identificando el Origen: Filtros de IP*** <br>
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/c24ca889-fa11-4201-b0b8-0150d1de555f" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/c24ca889-fa11-4201-b0b8-0150d1de555f" /><br>
 Este es para ver lo que el servidor envia<br><br>
 
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/826e4a22-8955-4e73-b728-0708ba74f746" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/826e4a22-8955-4e73-b728-0708ba74f746" /><br>
 Este es para ver lo que yo envío hacia el servidor<br><br>
 
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/ef0ac3d2-0b09-429a-9888-4feb42d8de12" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/ef0ac3d2-0b09-429a-9888-4feb42d8de12" /><br>
 Este es para ver toda la conversación
