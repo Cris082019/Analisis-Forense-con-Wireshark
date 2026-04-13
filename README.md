@@ -16,6 +16,9 @@ Se deben ejecutar ahora los siguientes comandos, y esto es el resultado que arro
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/fd7663bd-1f20-42e3-a66a-c6c1173bf9e3" /><br><br>
 
 Para la fase dos, se ejecutan los comandos, sin embargo, en el transcurso de ellos se descarga el archivo, pero no se obtiene paquetes, esto se evidencia en las siguientes imagenes que se van a compartir a continuación:
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/d9e04dd5-08ad-4d94-9d08-24218867dd36" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/583a05ea-ace9-4888-a27f-5d6f69d9dc27" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/0d6822e8-063b-46e1-b84e-6f5308d88ab4" />
 
 
 
