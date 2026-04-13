@@ -23,10 +23,26 @@ Estos son los resultados, adicional para que funcionara YOLO, se realiza un scri
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/5ef639f3-26e8-4526-999d-b90abe006b2f" />
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/db39a359-fed0-4953-b356-a6792e11cd9b" />
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/7e8c7fea-2849-4a22-9a75-d20ebdd6728b" />
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/e02e6327-fae5-4f9c-97a5-77945a8ba3ec" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/e02e6327-fae5-4f9c-97a5-77945a8ba3ec" /><br><br>
 
+Se decide ejecutar el siguiente comando con el fin de saber en que interface se encuentra la imagen o video para que pueda descargar el archivo con los paquetes, sin embargo, se toma en las primeras imágenes con eth0, luego se hace con lo(Loopback) y por último se procede con la IP, pero ningún resultado me muestra los paquetes como se muestra a continuación.
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/5c921fe3-ff81-4aa8-abcf-41a56e40a7b7" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/b2a43dfb-5279-4ace-a30a-ef3d5792bbdb" /><br><br>
 
+Ahora se va a realizar el analisis con Wireshark, para este caso se va a ver el primer paso TCP:
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/1daab1c8-aab8-4f0a-9b5a-c8d9cd49ef06" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/371100d2-6a91-441c-aea7-67a53d44cd48" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/8ed5facf-aed4-4458-8137-90bce9ade735" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/6ffe50f0-8b45-4847-b07e-43cd0f3aa87c" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/31ff3e47-dafa-4da8-814a-188a86a2e2b7" /><br><br>
 
+Por útimo, se van a resolver las preguntas que se dejan al final, con el fin de comprender el funcionamiento de YOLO y el analisis de Wireshark
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/b87159ee-cce1-4190-91a9-ef31cd1a4c24" />
 
-
-
+***1. ¿Qué es YOLO?, ¿Cuáles son sus características principales? y ¿Qué arquitectura tiene?***<br>
+YOLO (You Only Look Once) es un modelo de visión por computadora diseñado para la detección de objetos en tiempo real.<br><br>
+*Características principales:*<br>
+🔴**Velocidad:** Es extremadamente rápido al procesar imágenes completas en una sola pasada de red, lo que permite su uso en video en tiempo real.<br>
+🔴Precisión: A pesar de su rapidez, mantiene una alta precisión en la localización y clasificación de objetos.
+🔴**Eficiencia:* Existen versiones como YOLOv8 Nano (yolov8n.pt) optimizadas para dispositivos con recursos limitados.
+➖*Arquitectura:* Utiliza una red neuronal convolucional (CNN) que divide la imagen en una cuadrícula. Cada celda de la cuadrícula es responsable de predecir cajas delimitadoras (bounding boxes) y las probabilidades de clase simultáneamente.
