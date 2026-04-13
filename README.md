@@ -13,9 +13,9 @@ Se ejecutan los comandos como se requiere, y la siguiente imagen es el resulatad
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/b016ca68-bd3d-45cf-993c-c1fd6b3a7196" />
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/bb09db28-3beb-4dd9-ab35-bf7a4f37ffad" /><br>
 Se deben ejecutar ahora los siguientes comandos, y esto es el resultado que arroja
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/fd7663bd-1f20-42e3-a66a-c6c1173bf9e3" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/fd7663bd-1f20-42e3-a66a-c6c1173bf9e3" /><br><br>
 
-
+Para la fase dos, se ejecutan los comandos, sin embargo, en el transcurso de ellos se descarga el archivo, pero no se obtiene paquetes, esto se evidencia en las siguientes imagenes que se van a compartir a continuación:
 
 
 
