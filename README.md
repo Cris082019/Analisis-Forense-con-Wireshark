@@ -18,7 +18,14 @@ Se deben ejecutar ahora los siguientes comandos, y esto es el resultado que arro
 Para la fase dos, se ejecutan los comandos, sin embargo, en el transcurso de ellos se descarga el archivo, pero no se obtiene paquetes, esto se evidencia en las siguientes imagenes que se van a compartir a continuación:
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/d9e04dd5-08ad-4d94-9d08-24218867dd36" />
 <img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/583a05ea-ace9-4888-a27f-5d6f69d9dc27" />
-<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/0d6822e8-063b-46e1-b84e-6f5308d88ab4" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/0d6822e8-063b-46e1-b84e-6f5308d88ab4" /><br><br>
+Estos son los resultados, adicional para que funcionara YOLO, se realiza un script Java para que muestre imagen.
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/5ef639f3-26e8-4526-999d-b90abe006b2f" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/db39a359-fed0-4953-b356-a6792e11cd9b" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/7e8c7fea-2849-4a22-9a75-d20ebdd6728b" />
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/e02e6327-fae5-4f9c-97a5-77945a8ba3ec" />
+
+
 
 
 
