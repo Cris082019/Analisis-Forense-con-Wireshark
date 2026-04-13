@@ -42,7 +42,7 @@ Por útimo, se van a resolver las preguntas que se dejan al final, con el fin de
 ***1. ¿Qué es YOLO?, ¿Cuáles son sus características principales? y ¿Qué arquitectura tiene?***<br>
 YOLO (You Only Look Once) es un modelo de visión por computadora diseñado para la detección de objetos en tiempo real.<br><br>
 *Características principales:*<br>
-🔴**Velocidad:** Es extremadamente rápido al procesar imágenes completas en una sola pasada de red, lo que permite su uso en video en tiempo real.<br>
-🔴Precisión: A pesar de su rapidez, mantiene una alta precisión en la localización y clasificación de objetos.
-🔴**Eficiencia:* Existen versiones como YOLOv8 Nano (yolov8n.pt) optimizadas para dispositivos con recursos limitados.
+*🔴Velocidad:* Es extremadamente rápido al procesar imágenes completas en una sola pasada de red, lo que permite su uso en video en tiempo real.<br>
+🔴*Precisión:* A pesar de su rapidez, mantiene una alta precisión en la localización y clasificación de objetos.<br>
+🔴*Eficiencia:* Existen versiones como YOLOv8 Nano (yolov8n.pt) optimizadas para dispositivos con recursos limitados.<br>
 ➖*Arquitectura:* Utiliza una red neuronal convolucional (CNN) que divide la imagen en una cuadrícula. Cada celda de la cuadrícula es responsable de predecir cajas delimitadoras (bounding boxes) y las probabilidades de clase simultáneamente.
